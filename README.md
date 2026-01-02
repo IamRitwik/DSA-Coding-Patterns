@@ -13,9 +13,9 @@ This repository contains well-documented implementations of common data structur
 
 ## 📊 Problems Quick Reference
 
-| Problem Name | Pattern | Difficulty | Quick Interview Tip |
-|-------------|---------|------------|---------------------|
-| [Pair Sum in Sorted Array](1.Two-Pointers/1.1.Inward-Traversal/pair-sum-sorted.py) | Two Pointers (Inward) | Easy | **Sorted array + target sum** → Use two pointers from both ends, move based on sum comparison |
+| # | Problem Name | Pattern | Difficulty | Quick Interview Tip |
+|---|-------------|---------|------------|---------------------|
+| 1 | [Pair Sum in Sorted Array](1.Two-Pointers/1.1.Inward-Traversal/pair-sum-sorted.py) | Two Pointers (Inward) | Easy | **Sorted array + target sum** → Use two pointers from both ends, move based on sum comparison |
 
 > **Note**: This table will be updated as more problems are added to the repository.
 
