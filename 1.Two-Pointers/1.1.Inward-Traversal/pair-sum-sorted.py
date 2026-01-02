@@ -1,5 +1,7 @@
 from typing import List
 
+# Time - O(n)
+# Space - O(1)
 def pair_sum_sorted(nums: List[int], target: int) -> List[int]:
     # Write your code here
     left, right = 0, len(nums) - 1

@@ -16,6 +16,7 @@ This repository contains well-documented implementations of common data structur
 | # | Problem Name | Pattern | Difficulty | Quick Interview Tip |
 |---|-------------|---------|------------|---------------------|
 | 1 | [Pair Sum in Sorted Array](1.Two-Pointers/1.1.Inward-Traversal/pair-sum-sorted.py) | Two Pointers (Inward) | Easy | **Sorted array + target sum** → Use two pointers from both ends, move based on sum comparison |
+| 2 | [Valid Palindrome](1.Two-Pointers/1.1.Inward-Traversal/valid-palindrome.py) | Two Pointers (Inward) | Easy | **Palindrome check** → Use two pointers from both ends, skip non-alphanumeric chars, compare lowercase |
 
 > **Note**: This table will be updated as more problems are added to the repository.
 
