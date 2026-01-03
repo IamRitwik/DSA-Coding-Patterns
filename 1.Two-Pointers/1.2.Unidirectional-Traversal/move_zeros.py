@@ -1,3 +1,5 @@
+from typing import List
+
 # Time - O(n)
 # Space - O(1)
 def shift_zeros_to_the_end(nums: List[int]) -> None:
