@@ -1,5 +1,7 @@
 from typing import List
 
+# Time - O(n)
+# Space - O(n)
 def pair_sum_unsorted(nums: List[int], target: int) -> List[int]:
     # Write your code here
     num_map = {}

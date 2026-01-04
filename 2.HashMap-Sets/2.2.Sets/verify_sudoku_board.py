@@ -1,5 +1,7 @@
 from typing import List
 
+# Time - O(1)
+# Space - O(1)
 def verify_sudoku_board(board: List[List[str]]) -> bool:
     # Write your code here
     row_sets = [set() for _ in range(9)]
@@ -19,6 +21,8 @@ def verify_sudoku_board(board: List[List[str]]) -> bool:
             if num in col_sets[c]:
                 return False
             if num in subgrid_sets[r // 3][c // 3]:
+                print("Duplicate found", num, r, c)
+                print(subgrid_sets)
                 return False
             
             # if above checks pass add the value in 
@@ -46,7 +50,7 @@ if __name__ == "__main__":
     print(verify_sudoku_board(board))
 
 
-    board_2 = [ ["1","2",".",".","3",".",".",".","."],
+    board = [ ["1","2",".",".","3",".",".",".","."],
                 ["4",".",".","5",".",".",".",".","."],
                 [".","9","1",".",".",".",".",".","3"],
                 ["5",".",".",".","6",".",".",".","4"],
@@ -56,4 +60,4 @@ if __name__ == "__main__":
                 [".",".",".","4","1","9",".",".","8"],
                 [".",".",".",".","8",".",".","7","9"] ]
     
-    print(verify_sudoku_board(board_2))
+    print(verify_sudoku_board(board))
