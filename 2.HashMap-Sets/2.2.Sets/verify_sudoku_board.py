@@ -23,6 +23,8 @@ def verify_sudoku_board(board: List[List[str]]) -> bool:
             if num in subgrid_sets[r // 3][c // 3]:
                 print("Duplicate found", num, r, c)
                 print(subgrid_sets)
+                print(row_sets)
+                print(col_sets)
                 return False
             
             # if above checks pass add the value in 
@@ -50,7 +52,7 @@ if __name__ == "__main__":
     print(verify_sudoku_board(board))
 
 
-    board = [ ["1","2",".",".","3",".",".",".","."],
+    board = [   ["1","2",".",".","3",".",".",".","."],
                 ["4",".",".","5",".",".",".",".","."],
                 [".","9","1",".",".",".",".",".","3"],
                 ["5",".",".",".","6",".",".",".","4"],
@@ -58,6 +60,7 @@ if __name__ == "__main__":
                 ["7",".",".",".","2",".",".",".","6"],
                 [".",".",".",".",".",".","2",".","."],
                 [".",".",".","4","1","9",".",".","8"],
-                [".",".",".",".","8",".",".","7","9"] ]
+                [".",".",".",".","8",".",".","7","9"] 
+            ]
     
     print(verify_sudoku_board(board))
