@@ -1,4 +1,4 @@
-from LinkedList import LinkedList, Node
+from LinkedList import LinkedList
 
 # Time - o(n)
 # Space - O(1)

@@ -27,6 +27,7 @@ This repository contains well-documented implementations of common data structur
 | 10 | [Longest Consecutive Sequence](2.HashMap-Sets/2.2.Sets/longest_chain_consecutive_nums.py) | HashMaps & Sets | Medium | **Longest streak** → Use a set to find the start of each sequence (where `num - 1` is missing) and count upwards |
 | 11 | [Geometric Triplet Sequence](2.HashMap-Sets/2.1.Maps/geometric_triplet_sequence.py) | HashMaps & Sets | Medium | **Geometric triplets** → Use two frequency maps (left and right) to count triplets where `x/r` and `x*r` exist |
 | 12 | [Linked List Reversal](3.LinkedLists/3.1.Resturcturing/reverse.py) | Linked Lists | Easy | **Reverse Linked List** → Use three pointers (`prev`, `curr`, `next`) to reverse node connections in-place |
+| 13 | [Remove Kth Last Node](3.LinkedLists/3.1.Resturcturing/remove_kth_node.py) | Linked Lists (Two Pointers) | Medium | **Two-pointer approach** → Use a leader pointer with a k-node head start to find the node before target |
 
 > **Note**: This table will be updated as more problems are added to the repository.
 
