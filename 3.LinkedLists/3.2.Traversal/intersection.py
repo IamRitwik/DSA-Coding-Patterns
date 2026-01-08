@@ -1,6 +1,8 @@
 from typing import Optional
 from LinkedList import LinkedList, Node
 
+# Time: O(n)
+# Space: O(1)
 def linked_list_intersection(list_A: LinkedList, list_B: LinkedList) -> Optional[Node]:
     # Write your code here 
     ptr_A: Optional[Node] = list_A.head

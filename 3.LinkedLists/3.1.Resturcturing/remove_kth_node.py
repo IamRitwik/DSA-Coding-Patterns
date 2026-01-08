@@ -1,6 +1,8 @@
 from typing import Optional, Any
 from LinkedList import LinkedList, Node
 
+# Time: O(n)
+# Space: O(1)
 def remove_kth_last_node(head: LinkedList, k: int) -> None:
     # Write your code here
     dummy: Node = Node(-1)

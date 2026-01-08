@@ -1,6 +1,6 @@
 from LinkedList import LinkedList
 
-# Time - o(n)
+# Time - O(n)
 # Space - O(1)
 def reverse(ll: LinkedList) -> None:
     prev = None
