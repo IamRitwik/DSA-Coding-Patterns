@@ -1,6 +1,8 @@
 from typing import Optional, Any
 from LinkedList import LinkedList, Node
 
+# Time - O(N)
+# Space - O(1)
 def linked_list_loop(ll: LinkedList) -> bool:
     # slow and fast both start at the head
     slow = fast = ll.head
