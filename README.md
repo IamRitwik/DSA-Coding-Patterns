@@ -32,6 +32,9 @@ This repository contains well-documented implementations of common data structur
 | 15 | [LRU Cache](3.LinkedLists/3.3.DoublyLinkedList/LRU_cache.py) | Doubly Linked Lists & HashMaps | Medium | **O(1) Get/Put** → Combine a doubly linked list (for ordering) and a hash map (for O(1) access) |
 | 16 | [Palindrome Linked List](3.LinkedLists/3.2.Traversal/palindrome_linked_list.py) | Linked Lists (Two Pointers) | Easy | **Palindrome check** → Find middle (fast/slow), reverse second half, compare with first half |
 | 17 | [Flatten Multi-Level Linked List](3.LinkedLists/3.1.Resturcturing/flatten-multi-level-list.py) | Linked Lists (Restructuring) | Medium | **Flatten multi-level list** -> Append each child branch to the tail of the main list for a linear result |
+| 18 | [Linked List Loop](4.Fast-Slow-Pointer/linked-list-loop.py) | Fast & Slow Pointers | Easy | **Detect cycle in linked list** → Fast moves 2x faster; if pointers meet, a cycle exists |
+| 19 | [Midpoint of Linked List](4.Fast-Slow-Pointer/mid-point.py) | Fast & Slow Pointers | Easy | **Find the middle node** → Fast moves 2 steps, slow moves 1; slow is at mid when fast reaches end |
+| 20 | [Happy Number](4.Fast-Slow-Pointer/happy_number.py) | Fast & Slow Pointers | Easy | **Cycle detection in sequences** → Use fast/slow pointers on the sequence of digit square sums |
 
 > **Note**: This table will be updated as more problems are added to the repository.
 
