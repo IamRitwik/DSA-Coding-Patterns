@@ -30,6 +30,7 @@ This repository contains well-documented implementations of common data structur
 | 13 | [Remove Kth Last Node](3.LinkedLists/3.1.Resturcturing/remove_kth_node.py) | Linked Lists (Two Pointers) | Medium | **Two-pointer approach** → Use a leader pointer with a k-node head start to find the node before target |
 | 14 | [Intersection of Two Linked Lists](3.LinkedLists/3.2.Traversal/intersection.py) | Linked Lists (Two Pointers) | Easy | **Find intersection point** → Use two pointers, move each to the other list's head after reaching null to equalize path lengths |
 | 15 | [LRU Cache](3.LinkedLists/3.3.DoublyLinkedList/LRU_cache.py) | Doubly Linked Lists & HashMaps | Medium | **O(1) Get/Put** → Combine a doubly linked list (for ordering) and a hash map (for O(1) access) |
+| 16 | [Palindrome Linked List](3.LinkedLists/3.2.Traversal/palindrome_linked_list.py) | Linked Lists (Two Pointers) | Easy | **Palindrome check** → Find middle (fast/slow), reverse second half, compare with first half |
 
 > **Note**: This table will be updated as more problems are added to the repository.
 
