@@ -36,6 +36,7 @@ This repository contains well-documented implementations of common data structur
 | 19 | [Midpoint of Linked List](4.Fast-Slow-Pointer/mid-point.py) | Fast & Slow Pointers | Easy | **Find the middle node** → Fast moves 2 steps, slow moves 1; slow is at mid when fast reaches end |
 | 20 | [Happy Number](4.Fast-Slow-Pointer/happy_number.py) | Fast & Slow Pointers | Easy | **Cycle detection in sequences** → Use fast/slow pointers on the sequence of digit square sums |
 | 21 | [Substring Anagrams](5.Sliding-Window/1.1.Fixed-Window/substring-anagrams.py) | Sliding Window (Fixed Window) | Medium | **Match Anagrams** → Use fixed-size window & frequency arrays; compare window counts with pattern counts |
+| 22 | [Longest Substring Without Repeating Characters](5.Sliding-Window/1.2.Dynamic-Window/longest_sub-string_without_repeating_chars.py) | Sliding Window (Dynamic Window) | Medium | **No duplicate characters** → Use dynamic window with hash set; shrink from left when duplicate found, expand from right |
 
 > **Note**: This table will be updated as more problems are added to the repository.
 
