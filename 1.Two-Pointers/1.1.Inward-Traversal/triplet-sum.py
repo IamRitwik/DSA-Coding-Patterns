@@ -7,7 +7,8 @@ def triplet_sum(nums: List[int]) -> List[List[int]]:
     triplets = []
     nums.sort()
     for i in range(len(nums)):
-        # optimization: triplets consisting of positive numbers can never sum to 0 as list is sorted
+        # optimization: triplets consisting of positive numbers can never sum to 0 as 
+        # list is sorted
         if nums[i] > 0:
             break
         # avoid duplicate, skip 'a' if its same

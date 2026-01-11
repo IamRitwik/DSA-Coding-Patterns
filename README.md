@@ -35,6 +35,7 @@ This repository contains well-documented implementations of common data structur
 | 18 | [Linked List Loop](4.Fast-Slow-Pointer/linked-list-loop.py) | Fast & Slow Pointers | Easy | **Detect cycle in linked list** → Fast moves 2x faster; if pointers meet, a cycle exists |
 | 19 | [Midpoint of Linked List](4.Fast-Slow-Pointer/mid-point.py) | Fast & Slow Pointers | Easy | **Find the middle node** → Fast moves 2 steps, slow moves 1; slow is at mid when fast reaches end |
 | 20 | [Happy Number](4.Fast-Slow-Pointer/happy_number.py) | Fast & Slow Pointers | Easy | **Cycle detection in sequences** → Use fast/slow pointers on the sequence of digit square sums |
+| 21 | [Substring Anagrams](5.Sliding-Window/1.1.Fixed-Window/substring-anagrams.py) | Sliding Window (Fixed Window) | Medium | **Match Anagrams** → Use fixed-size window & frequency arrays; compare window counts with pattern counts |
 
 > **Note**: This table will be updated as more problems are added to the repository.
 
