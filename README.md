@@ -6,10 +6,6 @@ A comprehensive collection of Data Structures and Algorithms implementations and
 
 This repository contains well-documented implementations of common data structures, algorithms, and coding patterns frequently encountered in technical interviews and competitive programming. Each implementation includes:
 
-- Clear, readable code with comments
-- Time and space complexity analysis
-- Test cases and examples
-- Step-by-step explanations where applicable
 
 ## 📊 Problems Quick Reference
 
