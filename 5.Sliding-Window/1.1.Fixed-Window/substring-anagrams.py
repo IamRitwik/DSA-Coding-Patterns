@@ -8,16 +8,17 @@ def substring_anagrams(s: str, t: str) -> int:
     count = 0
     expected_freq, window_freq = [0]*26, [0]*26
 
-    # populate the expected frequency array
+    # populate the expected frequency array using ASCII values
     for c in t:
         expected_freq[ord(c) - ord('a')] += 1
     #print(expected_freq)
 
+    # Initialize the window and 2 pointers
     left = right = 0
     while right < len_s:
-        # add chracter of right pointer to window_freq
+        # add chracter of right pointer to window_freq using ASCII values
         window_freq[ord(s[right]) - ord('a')] += 1
-        # fixed length window
+        # fixed length window of size len_t
         # if the window reached fixed length, we advance left as well as right 
         # pointer to slide the window
         if right - left + 1 == len_t:
