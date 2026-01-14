@@ -34,6 +34,7 @@ This repository contains well-documented implementations of common data structur
 | 21 | [Substring Anagrams](5.Sliding-Window/1.1.Fixed-Window/substring-anagrams.py) | Sliding Window (Fixed Window) | Medium | **Match Anagrams** → Use fixed-size window & frequency arrays; compare window counts with pattern counts |
 | 22 | [Longest Substring Without Repeating Characters](5.Sliding-Window/1.2.Dynamic-Window/longest_sub-string_without_repeating_chars.py) | Sliding Window (Dynamic Window) | Medium | **No duplicate characters** → Use dynamic window with hash set; shrink from left when duplicate found, expand from right |
 | 23 | [Longest Uniform Substring After Replacement](5.Sliding-Window/1.2.Dynamic-Window/longest_uniform_sub-string_after_replacement.py) | Sliding Window (Dynamic Window) | Medium | **K replacements allowed** → Track highest frequency character; slide window when `(window_size - highest_freq) > k` |
+| 24 | [Find Insertion Index](6.Binary-Search/6.1.Sorted-Arrays/find_insertion_index.py) | Binary Search (Lower Bound) | Easy | **Find insertion position** → Use `left < right` with search space `[0, N]`; update `right = mid` (not `mid - 1`) to find lower bound |
 
 > **Note**: This table will be updated as more problems are added to the repository.
 
