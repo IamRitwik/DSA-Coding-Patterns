@@ -35,6 +35,7 @@ This repository contains well-documented implementations of common data structur
 | 22 | [Longest Substring Without Repeating Characters](5.Sliding-Window/1.2.Dynamic-Window/longest_sub-string_without_repeating_chars.py) | Sliding Window (Dynamic Window) | Medium | **No duplicate characters** → Use dynamic window with hash set; shrink from left when duplicate found, expand from right |
 | 23 | [Longest Uniform Substring After Replacement](5.Sliding-Window/1.2.Dynamic-Window/longest_uniform_sub-string_after_replacement.py) | Sliding Window (Dynamic Window) | Medium | **K replacements allowed** → Track highest frequency character; slide window when `(window_size - highest_freq) > k` |
 | 24 | [Find Insertion Index](6.Binary-Search/6.1.Sorted-Arrays/find_insertion_index.py) | Binary Search (Lower Bound) | Easy | **Find insertion position** → Use `left < right` with search space `[0, N]`; update `right = mid` (not `mid - 1`) to find lower bound |
+| 25 | [First and Last Occurrences of a Number](6.Binary-Search/6.1.Sorted-Arrays/first_last_occurrences_of_no.py) | Binary Search (Lower/Upper Bound) | Medium | **Find range of target** → Use lower bound to find first occurrence, upper bound - 1 to find last occurrence; check if target exists |
 
 > **Note**: This table will be updated as more problems are added to the repository.
 
