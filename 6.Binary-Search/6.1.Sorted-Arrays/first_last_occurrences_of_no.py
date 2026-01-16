@@ -44,7 +44,7 @@ if __name__ == "__main__":
 
     print(first_and_last_occurrences_of_a_number(nums, target))
 
-    nums = [1, 2, 4, 7, 9]
-    target = 4
+    nums = [1, 2, 3, 3, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    target = 3
 
     print(first_and_last_occurrences_of_a_number(nums, target))
