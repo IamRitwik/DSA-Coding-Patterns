@@ -26,6 +26,8 @@ def lower_bound(nums: List[int], target: int):
             left = mid + 1
     return left
 
+# find 1st invalid index where element is greater than target
+# first position where condition fails
 def upper_bound(nums: List[int], target: int):
     left, right = 0, len(nums)
 
