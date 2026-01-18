@@ -37,6 +37,12 @@ This repository contains well-documented implementations of common data structur
 | 24 | [Find Insertion Index](6.Binary-Search/6.1.Sorted-Arrays/find_insertion_index.py) | Binary Search (Lower Bound) | Easy | **Find insertion position** → Use `left < right` with search space `[0, N]`; update `right = mid` (not `mid - 1`) to find lower bound |
 | 25 | [First and Last Occurrences of a Number](6.Binary-Search/6.1.Sorted-Arrays/first_last_occurrences_of_no.py) | Binary Search (Lower/Upper Bound) | Medium | **Find range of target** → Use lower bound to find first occurrence, upper bound - 1 to find last occurrence; check if target exists |
 | 26 | [Cutting Wood](6.Binary-Search/6.2.Non-Intuitive-Search-Space/cutting-wood.py) | Binary Search (Upper Bound / Answer) | Medium | **Maximize result** → Binary search on answer range `[0, max(H)]`; find last `mid` where condition holds (upper bound logic) |
+| 27 | [Local Maxima in Array](6.Binary-Search/6.2.Non-Intuitive-Search-Space/local_maxima_in_array.py) | Binary Search (Non-Intuitive Search Space) | Medium | **Find local maxima** → Use binary search to find the index of the local maxima in the array |
+| 28 | [Weighted Random Selection](6.Binary-Search/6.2.Non-Intuitive-Search-Space/weighted_random_selection.py) | Binary Search (Non-Intuitive Search Space) | Medium | **Weighted random selection** → Use binary search to select an element from an array based on its weight |
+| 29 | [Search in Rotated Sorted Array](6.Binary-Search/6.3.Rotated-Sorted-Arrays/search_in_rotated_sorted_array.py) | Binary Search (Rotated Sorted Arrays) | Medium | **Rotated sorted array** → Identify which half is sorted; check if target is within the sorted half's range to decide search direction |
+| 30 | [Median of Two Sorted Arrays](6.Binary-Search/6.4.Multiple-Arrays/median-of-2-sorted-arrays.py) | Binary Search (Multiple Arrays) | Hard | **Partitioning** → Binary search on the smaller array to partition both arrays such that left halves <= right halves |
+| 31 | [Search a 2D Matrix](6.Binary-Search/6.5.Matrix/matrix-search.py) | Binary Search (2D Matrix) | Medium | **Treat as 1D array** → Map 2D indices (row, col) to 1D index `i` using `row = i // n`, `col = i % n` |
+
 
 > **Note**: This table will be updated as more problems are added to the repository.
 
