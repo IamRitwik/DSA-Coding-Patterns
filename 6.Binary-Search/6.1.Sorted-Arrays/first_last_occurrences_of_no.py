@@ -1,5 +1,7 @@
 from typing import List
 
+# Time: O(logn)
+# Space: O(1)
 def first_and_last_occurrences_of_a_number(nums: List[int], target: int) -> List[int]:
     # Write your code here
     if not nums:
