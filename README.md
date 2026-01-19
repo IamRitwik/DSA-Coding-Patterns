@@ -42,6 +42,8 @@ This repository contains well-documented implementations of common data structur
 | 29 | [Search in Rotated Sorted Array](6.Binary-Search/6.3.Rotated-Sorted-Arrays/search_in_rotated_sorted_array.py) | Binary Search (Rotated Sorted Arrays) | Medium | **Rotated sorted array** → Identify which half is sorted; check if target is within the sorted half's range to decide search direction |
 | 30 | [Median of Two Sorted Arrays](6.Binary-Search/6.4.Multiple-Arrays/median-of-2-sorted-arrays.py) | Binary Search (Multiple Arrays) | Hard | **Partitioning** → Binary search on the smaller array to partition both arrays such that left halves <= right halves |
 | 31 | [Search a 2D Matrix](6.Binary-Search/6.5.Matrix/matrix-search.py) | Binary Search (2D Matrix) | Medium | **Treat as 1D array** → Map 2D indices (row, col) to 1D index `i` using `row = i // n`, `col = i % n` |
+| 32 | [Valid Parenthesis](7.Stack/valid_parenthesis.py) | Stack | Easy | **Balanced Parentheses** → Push opening brackets to stack; pop and check for match when closing bracket appears |
+| 33 | [Next Largest Number to the Right](7.Stack/next_largest_no_to_right.py) | Monotonic Stack | Medium | **Monotonic Stack** → Iterate backwards; pop smaller elements from stack top to find next greater; push current |
 
 
 > **Note**: This table will be updated as more problems are added to the repository.
