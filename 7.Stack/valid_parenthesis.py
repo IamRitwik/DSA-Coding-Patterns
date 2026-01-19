@@ -1,3 +1,5 @@
+# Time: O(n)
+# Space: O(n)
 def valid_parenthesis_expression(s: str) -> bool:
     # Write your code here
     p_map = {'(': ')', '{': '}', '[': ']'}

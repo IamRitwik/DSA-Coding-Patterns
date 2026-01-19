@@ -1,5 +1,7 @@
 from typing import List
 
+# Time: O(n)
+# Space: O(n)
 def next_largest_number_to_the_right(nums: List[int]) -> List[int]:
     # Write your code here
     res = [0] * len(nums)
