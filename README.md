@@ -44,6 +44,8 @@ This repository contains well-documented implementations of common data structur
 | 31 | [Search a 2D Matrix](6.Binary-Search/6.5.Matrix/matrix-search.py) | Binary Search (2D Matrix) | Medium | **Treat as 1D array** → Map 2D indices (row, col) to 1D index `i` using `row = i // n`, `col = i % n` |
 | 32 | [Valid Parenthesis](7.Stack/valid_parenthesis.py) | Stack | Easy | **Balanced Parentheses** → Push opening brackets to stack; pop and check for match when closing bracket appears |
 | 33 | [Next Largest Number to the Right](7.Stack/next_largest_no_to_right.py) | Monotonic Stack | Medium | **Monotonic Stack** → Iterate backwards; pop smaller elements from stack top to find next greater; push current |
+| 34 | [Basic Calculator (Evaluate Expression)](7.Stack/evaluate_expression.py) | Stack | Hard | **Expression with parentheses** → Use stack to save context (result & sign) when entering `(`, restore when exiting `)` |
+| 35 | [Remove Adjacent Duplicates](7.Stack/remove_adjacent_duplicate.py) | Stack | Easy | **Remove adjacent duplicates** → Push to stack if different from top; pop if same as top (cancel out duplicates) |
 
 
 > **Note**: This table will be updated as more problems are added to the repository.
