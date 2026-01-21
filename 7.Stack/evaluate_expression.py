@@ -1,3 +1,5 @@
+# Time: O(n)
+# Space: O(n)
 def evaluate_expression(s: str) -> int:
     # Write your code here
     stack = []

@@ -1,3 +1,5 @@
+# Time: O(n)
+# Space: O(n)
 def repeated_removal_of_adjacent_duplicates(s: str) -> str:
     # Write your code here
     stack = []
