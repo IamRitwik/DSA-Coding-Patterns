@@ -46,6 +46,7 @@ This repository contains well-documented implementations of common data structur
 | 33 | [Next Largest Number to the Right](7.Stack/next_largest_no_to_right.py) | Monotonic Stack | Medium | **Monotonic Stack** → Iterate backwards; pop smaller elements from stack top to find next greater; push current |
 | 34 | [Basic Calculator (Evaluate Expression)](7.Stack/evaluate_expression.py) | Stack | Hard | **Expression with parentheses** → Use stack to save context (result & sign) when entering `(`, restore when exiting `)` |
 | 35 | [Remove Adjacent Duplicates](7.Stack/remove_adjacent_duplicate.py) | Stack | Easy | **Remove adjacent duplicates** → Push to stack if different from top; pop if same as top (cancel out duplicates) |
+| 36 | [Queue Using Stacks](7.Stack/queue_using_stack.py) | Stack | Medium | **Implement queue with stacks** → Use two stacks: one for enqueue (O(1)), one for dequeue; transfer elements lazily for amortized O(1) operations |
 
 
 > **Note**: This table will be updated as more problems are added to the repository.
