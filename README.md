@@ -48,6 +48,10 @@ This repository contains well-documented implementations of common data structur
 | 35 | [Remove Adjacent Duplicates](7.Stack/remove_adjacent_duplicate.py) | Stack | Easy | **Remove adjacent duplicates** → Push to stack if different from top; pop if same as top (cancel out duplicates) |
 | 36 | [Queue Using Stacks](7.Stack/queue_using_stack.py) | Stack | Medium | **Implement queue with stacks** → Use two stacks: one for enqueue (O(1)), one for dequeue; transfer elements lazily for amortized O(1) operations |
 | 37 | [Sliding Window Maximum](7.Stack/sliding_window_maximum.py) | Monotonic Deque | Hard | **Find max in each window** → Use monotonic decreasing deque to track potential maximums; remove smaller elements from back, outdated from front |
+| 38 | [Merge K Sorted Lists](8.Heap/Sorting/merge-k-sorted-lists.py) | Heap (Sorting) | Hard | **Merge multiple sorted lists** → Use min heap to track smallest element from each list; pop smallest, push its next node. O(N log k) time |
+| 39 | [K Most Frequent Strings (Max Heap)](8.Heap/Finding_In_Sorted_Order/k-most-frequent-strings-max-heap.py) | Heap (Finding in Sorted Order) | Medium | **Top K frequent elements** → Build max heap with custom comparator (freq desc, then string asc); pop k times. O(n + k log n) time |
+| 40 | [K Most Frequent Strings (Min Heap)](8.Heap/Finding_In_Sorted_Order/k-most-frequent-strings-min-heap.py) | Heap (Finding in Sorted Order) | Medium | **Top K with size-k heap** → Maintain min heap of size k; push all elements, pop when size > k. O(n log k) time, O(k) space |
+| 41 | [Median of Stream](8.Heap/Finding_In_Sorted_Order/median_of_stream.py) | Heap (Two Heaps) | Hard | **Running median** → Use max heap (left half) and min heap (right half); balance heaps to keep sizes equal or left_size = right_size + 1 |
 
 
 > **Note**: This table will be updated as more problems are added to the repository.
