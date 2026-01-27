@@ -52,6 +52,7 @@ This repository contains well-documented implementations of common data structur
 | 39 | [K Most Frequent Strings (Max Heap)](8.Heap/Finding_In_Sorted_Order/k-most-frequent-strings-max-heap.py) | Heap (Finding in Sorted Order) | Medium | **Top K frequent elements** → Build max heap with custom comparator (freq desc, then string asc); pop k times. O(n + k log n) time |
 | 40 | [K Most Frequent Strings (Min Heap)](8.Heap/Finding_In_Sorted_Order/k-most-frequent-strings-min-heap.py) | Heap (Finding in Sorted Order) | Medium | **Top K with size-k heap** → Maintain min heap of size k; push all elements, pop when size > k. O(n log k) time, O(k) space |
 | 41 | [Median of Stream](8.Heap/Finding_In_Sorted_Order/median_of_stream.py) | Heap (Two Heaps) | Hard | **Running median** → Use max heap (left half) and min heap (right half); balance heaps to keep sizes equal or left_size = right_size + 1 |
+| 42 | [Sort K-Sorted Array](8.Heap/Sorting/sort_k_sorted_array.py) | Heap (Sorting) | Medium | **Nearly sorted array** → Use min heap of size k+1; smallest element in array must be within first k+1 positions. O(n log k) time |
 
 
 > **Note**: This table will be updated as more problems are added to the repository.
