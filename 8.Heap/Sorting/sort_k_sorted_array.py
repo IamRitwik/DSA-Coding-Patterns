@@ -1,7 +1,7 @@
 import heapq
 from typing import List
 
-
+# Time - O(k + (n-k)logk + klogk), space - O(k)
 def sort_a_k_sorted_array(nums: List[int], k: int) -> List[int]:
     # Populate a min-heap with the first k + 1 values in 'nums'
 
