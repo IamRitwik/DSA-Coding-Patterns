@@ -53,6 +53,9 @@ This repository contains well-documented implementations of common data structur
 | 40 | [K Most Frequent Strings (Min Heap)](8.Heap/Finding_In_Sorted_Order/k-most-frequent-strings-min-heap.py) | Heap (Finding in Sorted Order) | Medium | **Top K with size-k heap** → Maintain min heap of size k; push all elements, pop when size > k. O(n log k) time, O(k) space |
 | 41 | [Median of Stream](8.Heap/Finding_In_Sorted_Order/median_of_stream.py) | Heap (Two Heaps) | Hard | **Running median** → Use max heap (left half) and min heap (right half); balance heaps to keep sizes equal or left_size = right_size + 1 |
 | 42 | [Sort K-Sorted Array](8.Heap/Sorting/sort_k_sorted_array.py) | Heap (Sorting) | Medium | **Nearly sorted array** → Use min heap of size k+1; smallest element in array must be within first k+1 positions. O(n log k) time |
+| 43 | [Merge Intervals](9.Merge-Intervals/merge-overlap-intervals.py) | Merge Intervals | Medium | **Sort & Merge** → Sort by start time; merge if `current.end >= next.start` |
+| 44 | [Interval List Intersections](9.Merge-Intervals/identify-interval-overlaps.py) | Merge Intervals (Two Pointers) | Medium | **Find common time** → Use two pointers on sorted lists; intersection is `max(start1, start2)` to `min(end1, end2)` |
+| 45 | [Maximum Overlapping Intervals](9.Merge-Intervals/largest_overlap_of_inertavls.py) | Merge Intervals (Sweep Line) | Medium | **Sweep Line** → Sort starts (`+1`) and ends (`-1`); track cumulative sum to find max overlap |
 
 
 > **Note**: This table will be updated as more problems are added to the repository.
