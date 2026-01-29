@@ -56,6 +56,7 @@ This repository contains well-documented implementations of common data structur
 | 43 | [Merge Intervals](9.Merge-Intervals/merge-overlap-intervals.py) | Merge Intervals | Medium | **Sort & Merge** → Sort by start time; merge if `current.end >= next.start` |
 | 44 | [Interval List Intersections](9.Merge-Intervals/identify-interval-overlaps.py) | Merge Intervals (Two Pointers) | Medium | **Find common time** → Use two pointers on sorted lists; intersection is `max(start1, start2)` to `min(end1, end2)` |
 | 45 | [Maximum Overlapping Intervals](9.Merge-Intervals/largest_overlap_of_inertavls.py) | Merge Intervals (Sweep Line) | Medium | **Sweep Line** → Sort starts (`+1`) and ends (`-1`); track cumulative sum to find max overlap |
+| 46 | [Sum Between Range](10.Prefix_Sum/sum_between_range.py) | Prefix Sum | Easy | **Range Sum** → Precompute prefix sums. `Sum(i, j) = P[j] - P[i-1]`. Handle `i=0`. |
 
 
 > **Note**: This table will be updated as more problems are added to the repository.

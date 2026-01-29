@@ -8,5 +8,6 @@ class SumBetweenRange:
 
     def sum_range(self, i: int, j: int):
         if i == 0:
-            return self.prefix_sum[j] - self.prefix_sum[i - 1]
+            return self.prefix_sum[j]
+        return self.prefix_sum[j] - self.prefix_sum[i - 1]
         
