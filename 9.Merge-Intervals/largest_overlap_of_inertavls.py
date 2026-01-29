@@ -19,7 +19,7 @@ def largest_overlap_of_intervals(intervals: List[Interval]) -> int:
     active_intervals = 0
     max_overlaps = 0
 
-    for time, point in points:
+    for _, point in points:
         if point == 'S':
             active_intervals += 1
         else:
