@@ -57,6 +57,8 @@ This repository contains well-documented implementations of common data structur
 | 44 | [Interval List Intersections](9.Merge-Intervals/identify-interval-overlaps.py) | Merge Intervals (Two Pointers) | Medium | **Find common time** → Use two pointers on sorted lists; intersection is `max(start1, start2)` to `min(end1, end2)` |
 | 45 | [Maximum Overlapping Intervals](9.Merge-Intervals/largest_overlap_of_inertavls.py) | Merge Intervals (Sweep Line) | Medium | **Sweep Line** → Sort starts (`+1`) and ends (`-1`); track cumulative sum to find max overlap |
 | 46 | [Sum Between Range](10.Prefix_Sum/sum_between_range.py) | Prefix Sum | Easy | **Range Sum** → Precompute prefix sums. `Sum(i, j) = P[j] - P[i-1]`. Handle `i=0`. |
+| 47 | [K Sum Subarrays](10.Prefix_Sum/k_sum_sub_array.py) | Prefix Sum (Hash Map) | Medium | **Subarray sum equals K** → Use hash map to store `prefix_sum` frequency; check if `curr_prefix_sum - k` exists in map |
+| 48 | [Product of Array Except Self](10.Prefix_Sum/product_array.py) | Prefix & Suffix Products | Medium | **Product without self** → Compute left products in first pass, then multiply by right products in second pass (O(1) space) |
 
 
 > **Note**: This table will be updated as more problems are added to the repository.
