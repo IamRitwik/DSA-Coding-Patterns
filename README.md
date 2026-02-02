@@ -60,6 +60,7 @@ This repository contains well-documented implementations of common data structur
 | 47 | [K Sum Subarrays](10.Prefix_Sum/k_sum_sub_array.py) | Prefix Sum (Hash Map) | Medium | **Subarray sum equals K** → Use hash map to store `prefix_sum` frequency; check if `curr_prefix_sum - k` exists in map |
 | 48 | [Product of Array Except Self](10.Prefix_Sum/product_array.py) | Prefix & Suffix Products | Medium | **Product without self** → Compute left products in first pass, then multiply by right products in second pass (O(1) space) |
 | 49 | [Invert Binary Tree](11.Trees/DFS/1.invert_binary_tree.py) | Trees (DFS) | Easy | **Invert Structure** → Swap left and right children at each node; recurse on both children (DFS) |
+| 50 | [Balanced Binary Tree](11.Trees/DFS/2.balanced_bianry_tree.py) | Trees (DFS) | Easy | **Check Balance** → Use DFS to compute height; return -1 if unbalanced; check if `abs(left_height - right_height) > 1` |
 
 
 > **Note**: This table will be updated as more problems are added to the repository.
