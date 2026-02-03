@@ -61,6 +61,9 @@ This repository contains well-documented implementations of common data structur
 | 48 | [Product of Array Except Self](10.Prefix_Sum/product_array.py) | Prefix & Suffix Products | Medium | **Product without self** → Compute left products in first pass, then multiply by right products in second pass (O(1) space) |
 | 49 | [Invert Binary Tree](11.Trees/DFS/1.invert_binary_tree.py) | Trees (DFS) | Easy | **Invert Structure** → Swap left and right children at each node; recurse on both children (DFS) |
 | 50 | [Balanced Binary Tree](11.Trees/DFS/2.balanced_bianry_tree.py) | Trees (DFS) | Easy | **Check Balance** → Use DFS to compute height; return -1 if unbalanced; check if `abs(left_height - right_height) > 1` |
+| 51 | [Rightmost Nodes of Binary Tree](11.Trees/BFS/1.right_most_nodes.py) | Trees (BFS) | Medium | **Level-order traversal** → Use BFS with queue; track level size, append last node of each level to result |
+| 52 | [Widest Binary Tree Level](11.Trees/BFS/2.widest_binary_tree_level.py) | Trees (BFS) | Medium | **Width with gaps** → Use BFS with index tracking `(node, index)`; left child = `2*i+1`, right = `2*i+2`; width = `rightmost - leftmost + 1` |
+| 53 | [Validate BST](11.Trees/DFS/3.validate_BST.py) | Trees (DFS) | Medium | **Range validation** → Each node must satisfy `min < node.val < max`; left subtree updates max to `node.val`, right updates min to `node.val` |
 
 
 > **Note**: This table will be updated as more problems are added to the repository.
