@@ -4,7 +4,9 @@ class TreeNode:
         self.left = None
         self.right = None
 
-
+# Recursive approach
+# Time: O(n)
+# Space: O(h)
 def balanced_binary_tree_validation(root: TreeNode) -> bool:
     # Write your code here
     return get_height(root) != -1

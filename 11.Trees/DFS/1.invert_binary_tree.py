@@ -4,6 +4,9 @@ class TreeNode:
         self.left = None
         self.right = None
 
+# Recursive approach
+# Time: O(n)
+# Space: O(h)
 def invert_binary_tree(root: TreeNode) -> TreeNode:
     # Base case: node is null, nothing to invert
     if not root:
@@ -19,7 +22,10 @@ def invert_binary_tree(root: TreeNode) -> TreeNode:
     return root
 
 
-def invertTree(root: TreeNode) -> TreeNode:
+# Iterative approach
+# Time: O(n)
+# Space: O(h)
+def invert_binary_tree_iterative(root: TreeNode) -> TreeNode:
     if not root:
         return None
     
