@@ -64,6 +64,9 @@ This repository contains well-documented implementations of common data structur
 | 51 | [Rightmost Nodes of Binary Tree](11.Trees/BFS/1.right_most_nodes.py) | Trees (BFS) | Medium | **Level-order traversal** → Use BFS with queue; track level size, append last node of each level to result |
 | 52 | [Widest Binary Tree Level](11.Trees/BFS/2.widest_binary_tree_level.py) | Trees (BFS) | Medium | **Width with gaps** → Use BFS with index tracking `(node, index)`; left child = `2*i+1`, right = `2*i+2`; width = `rightmost - leftmost + 1` |
 | 53 | [Validate BST](11.Trees/DFS/3.validate_BST.py) | Trees (DFS) | Medium | **Range validation** → Each node must satisfy `min < node.val < max`; left subtree updates max to `node.val`, right updates min to `node.val` |
+| 54 | [Lowest Common Ancestor](11.Trees/DFS/4.LCA.py) | Trees (DFS) | Medium | **LCA in Binary Tree** → If current node is p or q, return it; if both subtrees return non-null, current is LCA; else return non-null subtree result |
+| 55 | [Lowest Common Ancestor in BST](11.Trees/DFS/5.LCA_BST.py) | Trees (DFS) | Medium | **Use BST property** → If both p,q < root, go left; if both > root, go right; else root is LCA. O(h) time, O(1) space iterative |
+| 56 | [Construct Binary Tree from Preorder and Inorder](11.Trees/DFS/6.build_tree_from_pre_in_order.py) | Trees (DFS) | Medium | **Divide and conquer** → First element in preorder is root; find it in inorder to split left/right subtrees; use hashmap for O(1) lookups |
 
 
 > **Note**: This table will be updated as more problems are added to the repository.

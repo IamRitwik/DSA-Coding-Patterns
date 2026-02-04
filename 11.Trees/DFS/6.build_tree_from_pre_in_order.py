@@ -10,7 +10,8 @@ class TreeNode:
         self.left = None
         self.right = None
 
-
+# Time: O(n) - visit each node once
+# Space: O(h) - recursion stack depth (h = height of tree)
 def build_binary_tree(preorder: List[int], inorder: List[int]) -> TreeNode:
     global inorder_index_map
 
