@@ -67,7 +67,11 @@ This repository contains well-documented implementations of common data structur
 | 54 | [Lowest Common Ancestor](11.Trees/DFS/4.LCA.py) | Trees (DFS) | Medium | **LCA in Binary Tree** → If current node is p or q, return it; if both subtrees return non-null, current is LCA; else return non-null subtree result |
 | 55 | [Lowest Common Ancestor in BST](11.Trees/DFS/5.LCA_BST.py) | Trees (DFS) | Medium | **Use BST property** → If both p,q < root, go left; if both > root, go right; else root is LCA. O(h) time, O(1) space iterative |
 | 56 | [Construct Binary Tree from Preorder and Inorder](11.Trees/DFS/6.build_tree_from_pre_in_order.py) | Trees (DFS) | Medium | **Divide and conquer** → First element in preorder is root; find it in inorder to split left/right subtrees; use hashmap for O(1) lookups |
-| 57 | [Binary Tree Maximum Path Sum](11.Trees/DFS/7.maximum_path_sum.py) | Trees (DFS) | Hard | **Max Path Sum** → Track global max `(left + root + right)`; return extendable path to parent `(root + max(left, right))` |
+| 57 | [Binary Tree Maximum Path Sum](11.Trees/DFS/7.maximum_path_sum.py) | Trees (DFS) | Hard | **Max Path Sum** → Track global max (left + root + right); return extendable path to parent (root + max(left, right)) |
+| 58 | [Binary Tree Symmetry](11.Trees/DFS/8.binary_tree_symmetry.py) | Trees (DFS) | Easy | **Mirror Structure** → Recursively compare outer pairs and inner pairs; `left.left == right.right` and `left.right == right.left` |
+| 59 | [Binary Tree Columns](11.Trees/BFS/3.binary_tree_columns.py) | Trees (BFS) | Medium | **Vertical Order** → BFS with `(node, col)`; track min/max col; collect nodes by column index |
+| 60 | [Kth Smallest Element in BST](11.Trees/DFS/9.kth_smallest_element.py) | Trees (DFS) | Medium | **Inorder Property** → Inorder traversal of a BST yields sorted values; stop at the k-th visited node |
+| 61 | [Serialize and Deserialize Binary Tree](11.Trees/DFS/10.serialize-deserialize.py) | Trees (DFS) | Hard | **String Encoding** → Preorder DFS for serialization (use `#` for None); use an iterator to deserialize recursively |
 
 
 > **Note**: This table will be updated as more problems are added to the repository.
