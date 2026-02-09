@@ -18,11 +18,11 @@ class InsertAndSearchWordsWithWildcards:
         
         node.is_word = True
 
-    # Time: O(M) for no wildcards, O(N*26^K) worst case where N is nodes, K is wildcards | Space: O(M) for recursion
+    
     def search(self, word: str) -> bool:
         return self.search_helper(0, word, self.root)
     
-    # Time: O(M) best case, O(N*26^K) worst case | Space: O(M) for recursion depth
+    # Time: O(M) best case, O(M*26^K) worst case | Space: O(M) for recursion depth
     def search_helper(self, word_index: int, word: str, node: TrieNode) -> bool:
         for i in range(word_index, len(word)):
             c = word[i]
