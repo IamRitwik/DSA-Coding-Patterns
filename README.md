@@ -74,6 +74,7 @@ This repository contains well-documented implementations of common data structur
 | 61 | [Serialize and Deserialize Binary Tree](11.Trees/DFS/10.serialize-deserialize.py) | Trees (DFS) | Hard | **String Encoding** → Preorder DFS for serialization (use `#` for None); use an iterator to deserialize recursively |
 | 62 | [Design Trie (Prefix Tree)](12.Tries/design_trie.py) | Tries | Medium | **Prefix Tree** → Use nested dictionaries for children; mark end of word with boolean flag; O(M) for insert/search where M is word length |
 | 63 | [Add and Search Word with Wildcards](12.Tries/add_search_word_wildcard.py) | Tries (DFS) | Medium | **Wildcard Search** → Use DFS with recursion when encountering `.` wildcard; explore all children branches; O(M·26^K) worst case where K is wildcards |
+| 64 | [Word Search II](12.Tries/find_all_words_on_board.py) | Tries (DFS + Backtracking) | Hard | **Find words on board** → Build Trie from words; DFS from each cell with backtracking; prune Trie branches after finding words. O(M·N·4^L) time |
 
 
 > **Note**: This table will be updated as more problems are added to the repository.
