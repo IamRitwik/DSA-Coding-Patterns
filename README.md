@@ -75,6 +75,7 @@ This repository contains well-documented implementations of common data structur
 | 62 | [Design Trie (Prefix Tree)](12.Tries/design_trie.py) | Tries | Medium | **Prefix Tree** → Use nested dictionaries for children; mark end of word with boolean flag; O(M) for insert/search where M is word length |
 | 63 | [Add and Search Word with Wildcards](12.Tries/add_search_word_wildcard.py) | Tries (DFS) | Medium | **Wildcard Search** → Use DFS with recursion when encountering `.` wildcard; explore all children branches; O(M·26^K) worst case where K is wildcards |
 | 64 | [Word Search II](12.Tries/find_all_words_on_board.py) | Tries (DFS + Backtracking) | Hard | **Find words on board** → Build Trie from words; DFS from each cell with backtracking; prune Trie branches after finding words. O(M·N·4^L) time |
+| 65 | [Clone Graph (Deep Copy)](13.Graphs/1.DFS/1.deep_copy.py) | Graphs (DFS) | Medium | **Clone graph with cycles** → Use DFS with hashmap to track cloned nodes; prevents infinite loops in cyclic graphs. O(V+E) time, O(V) space |
 
 
 > **Note**: This table will be updated as more problems are added to the repository.
