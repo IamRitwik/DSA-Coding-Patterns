@@ -76,6 +76,8 @@ This repository contains well-documented implementations of common data structur
 | 63 | [Add and Search Word with Wildcards](12.Tries/add_search_word_wildcard.py) | Tries (DFS) | Medium | **Wildcard Search** → Use DFS with recursion when encountering `.` wildcard; explore all children branches; O(M·26^K) worst case where K is wildcards |
 | 64 | [Word Search II](12.Tries/find_all_words_on_board.py) | Tries (DFS + Backtracking) | Hard | **Find words on board** → Build Trie from words; DFS from each cell with backtracking; prune Trie branches after finding words. O(M·N·4^L) time |
 | 65 | [Clone Graph (Deep Copy)](13.Graphs/1.DFS/1.deep_copy.py) | Graphs (DFS) | Medium | **Clone graph with cycles** → Use DFS with hashmap to track cloned nodes; prevents infinite loops in cyclic graphs. O(V+E) time, O(V) space |
+| 66 | [Count Islands](13.Graphs/1.DFS/2.count_islands.py) | Graphs (DFS) | Medium | **Count connected components** → DFS from each unvisited land cell to mark entire island; increment count for each new island found. O(M·N) time |
+| 67 | [Matrix Infection (Rotting Oranges)](13.Graphs/2.BFS/1.matrix_infection.py) | Graphs (BFS) | Medium | **Multi-source BFS** → Start BFS from all rotten oranges simultaneously using level-order traversal; track time to infect all fresh oranges. O(M·N) time |
 
 
 > **Note**: This table will be updated as more problems are added to the repository.
