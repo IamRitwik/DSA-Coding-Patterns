@@ -78,6 +78,8 @@ This repository contains well-documented implementations of common data structur
 | 65 | [Clone Graph (Deep Copy)](13.Graphs/1.DFS/1.deep_copy.py) | Graphs (DFS) | Medium | **Clone graph with cycles** → Use DFS with hashmap to track cloned nodes; prevents infinite loops in cyclic graphs. O(V+E) time, O(V) space |
 | 66 | [Count Islands](13.Graphs/1.DFS/2.count_islands.py) | Graphs (DFS) | Medium | **Count connected components** → DFS from each unvisited land cell to mark entire island; increment count for each new island found. O(M·N) time |
 | 67 | [Matrix Infection (Rotting Oranges)](13.Graphs/2.BFS/1.matrix_infection.py) | Graphs (BFS) | Medium | **Multi-source BFS** → Start BFS from all rotten oranges simultaneously using level-order traversal; track time to infect all fresh oranges. O(M·N) time |
+| 68 | [Bipartite Graph Validation](13.Graphs/1.DFS/3.bipartite_graph.py) | Graphs (DFS + 2-Coloring) | Medium | **2-Coloring** → Use DFS to color nodes with 2 colors; if neighbor has same color, graph is not bipartite. Check all components. O(V+E) time |
+| 69 | [Longest Increasing Path in Matrix](13.Graphs/1.DFS/4.longest_increasing_path.py) | Graphs (DFS + Memoization) | Hard | **DFS with memo** → From each cell, DFS to neighbors with greater values; cache results to avoid recomputation. O(M·N) time, O(M·N) space |
 
 
 > **Note**: This table will be updated as more problems are added to the repository.
