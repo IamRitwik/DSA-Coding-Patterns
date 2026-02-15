@@ -80,6 +80,7 @@ This repository contains well-documented implementations of common data structur
 | 67 | [Matrix Infection (Rotting Oranges)](13.Graphs/2.BFS/1.matrix_infection.py) | Graphs (BFS) | Medium | **Multi-source BFS** → Start BFS from all rotten oranges simultaneously using level-order traversal; track time to infect all fresh oranges. O(M·N) time |
 | 68 | [Bipartite Graph Validation](13.Graphs/1.DFS/3.bipartite_graph.py) | Graphs (DFS + 2-Coloring) | Medium | **2-Coloring** → Use DFS to color nodes with 2 colors; if neighbor has same color, graph is not bipartite. Check all components. O(V+E) time |
 | 69 | [Longest Increasing Path in Matrix](13.Graphs/1.DFS/4.longest_increasing_path.py) | Graphs (DFS + Memoization) | Hard | **DFS with memo** → From each cell, DFS to neighbors with greater values; cache results to avoid recomputation. O(M·N) time, O(M·N) space |
+| 70 | [Word Ladder](13.Graphs/2.BFS/2.word_ladder.py) | Graphs (BFS) | Medium | **Shortest path in implicit graph** → BFS from start; neighbors = one-letter changes; only allow words in dictionary. O(N·L²) time. Optional: bidirectional BFS to meet in the middle |
 
 
 > **Note**: This table will be updated as more problems are added to the repository.
