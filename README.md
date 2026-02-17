@@ -81,6 +81,8 @@ This repository contains well-documented implementations of common data structur
 | 68 | [Bipartite Graph Validation](13.Graphs/1.DFS/3.bipartite_graph.py) | Graphs (DFS + 2-Coloring) | Medium | **2-Coloring** → Use DFS to color nodes with 2 colors; if neighbor has same color, graph is not bipartite. Check all components. O(V+E) time |
 | 69 | [Longest Increasing Path in Matrix](13.Graphs/1.DFS/4.longest_increasing_path.py) | Graphs (DFS + Memoization) | Hard | **DFS with memo** → From each cell, DFS to neighbors with greater values; cache results to avoid recomputation. O(M·N) time, O(M·N) space |
 | 70 | [Word Ladder](13.Graphs/2.BFS/2.word_ladder.py) | Graphs (BFS) | Medium | **Shortest path in implicit graph** → BFS from start; neighbors = one-letter changes; only allow words in dictionary. O(N·L²) time. Optional: bidirectional BFS to meet in the middle |
+| 71 | [Merging Communities](13.Graphs/3.Union-Find/merging_communities.py) | Graphs (Union-Find / DSU) | Medium | **Dynamic connectivity** → Use Union-Find with union by size and path compression to keep track of community sizes in near O(1) time |
+| 72 | [Course Schedule (Prerequisites)](13.Graphs/4.Topological_Sort/course_schedule.py) | Graphs (Topological Sort / Kahn's Algorithm) | Medium | **Detect cycles in prerequisites** → Build in-degree array and adjacency list; repeatedly take zero in-degree nodes using a queue to check if all courses can be finished |
 
 
 > **Note**: This table will be updated as more problems are added to the repository.
