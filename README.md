@@ -83,6 +83,8 @@ This repository contains well-documented implementations of common data structur
 | 70 | [Word Ladder](13.Graphs/2.BFS/2.word_ladder.py) | Graphs (BFS) | Medium | **Shortest path in implicit graph** → BFS from start; neighbors = one-letter changes; only allow words in dictionary. O(N·L²) time. Optional: bidirectional BFS to meet in the middle |
 | 71 | [Merging Communities](13.Graphs/3.Union-Find/merging_communities.py) | Graphs (Union-Find / DSU) | Medium | **Dynamic connectivity** → Use Union-Find with union by size and path compression to keep track of community sizes in near O(1) time |
 | 72 | [Course Schedule (Prerequisites)](13.Graphs/4.Topological_Sort/course_schedule.py) | Graphs (Topological Sort / Kahn's Algorithm) | Medium | **Detect cycles in prerequisites** → Build in-degree array and adjacency list; repeatedly take zero in-degree nodes using a queue to check if all courses can be finished |
+| 73 | [Connect the Dots (Min Cost to Connect Points)](13.Graphs/3.Union-Find/connect_the_dots.py) | Graphs (MST / Kruskal + Union-Find) | Medium | **Minimum cost to connect all points** → Build all edges with Manhattan distance, sort by cost, and use Kruskal's algorithm with Union-Find to form the MST |
+| 74 | [Shortest Path from Source (Dijkstra)](13.Graphs/5.Shortest_Path/dijkstra.py) | Graphs (Dijkstra / Shortest Path) | Medium | **Single-source shortest paths (non-negative edges)** → Use adjacency list with min-heap; relax edges and skip heap entries whose distance is greater than the current best |
 
 
 > **Note**: This table will be updated as more problems are added to the repository.
