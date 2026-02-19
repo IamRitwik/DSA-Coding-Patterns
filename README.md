@@ -85,6 +85,8 @@ This repository contains well-documented implementations of common data structur
 | 72 | [Course Schedule (Prerequisites)](13.Graphs/4.Topological_Sort/course_schedule.py) | Graphs (Topological Sort / Kahn's Algorithm) | Medium | **Detect cycles in prerequisites** → Build in-degree array and adjacency list; repeatedly take zero in-degree nodes using a queue to check if all courses can be finished |
 | 73 | [Connect the Dots (Min Cost to Connect Points)](13.Graphs/3.Union-Find/connect_the_dots.py) | Graphs (MST / Kruskal + Union-Find) | Medium | **Minimum cost to connect all points** → Build all edges with Manhattan distance, sort by cost, and use Kruskal's algorithm with Union-Find to form the MST |
 | 74 | [Shortest Path from Source (Dijkstra)](13.Graphs/5.Shortest_Path/dijkstra.py) | Graphs (Dijkstra / Shortest Path) | Medium | **Single-source shortest paths (non-negative edges)** → Use adjacency list with min-heap; relax edges and skip heap entries whose distance is greater than the current best |
+| 75 | [Find All Permutations](14.Backtracking/1.Permutation/find_all_permutations.py) | Backtracking | Medium | **All permutations** → Use backtracking with a used set; for each unused element, add to candidate, recurse, then remove (backtrack). O(n × n!) time |
+| 76 | [Find All Subsets](14.Backtracking/2.Subset/find_all_subsets.py) | Backtracking | Medium | **All subsets** → For each element, either include or exclude; recurse both ways and backtrack. 2^n subsets. O(n × 2^n) time |
 
 
 > **Note**: This table will be updated as more problems are added to the repository.
