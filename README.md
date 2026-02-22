@@ -87,6 +87,7 @@ This repository contains well-documented implementations of common data structur
 | 74 | [Shortest Path from Source (Dijkstra)](13.Graphs/5.Shortest_Path/dijkstra.py) | Graphs (Dijkstra / Shortest Path) | Medium | **Single-source shortest paths (non-negative edges)** → Use adjacency list with min-heap; relax edges and skip heap entries whose distance is greater than the current best |
 | 75 | [Find All Permutations](14.Backtracking/1.Permutation/find_all_permutations.py) | Backtracking | Medium | **All permutations** → Use backtracking with a used set; for each unused element, add to candidate, recurse, then remove (backtrack). O(n × n!) time |
 | 76 | [Find All Subsets](14.Backtracking/2.Subset/find_all_subsets.py) | Backtracking | Medium | **All subsets** → For each element, either include or exclude; recurse both ways and backtrack. 2^n subsets. O(n × 2^n) time |
+| 77 | [Combination Sum](14.Backtracking/3.Combination/combination_sum.py) | Backtracking | Medium | **Combinations summing to target** → Elements can be reused (pass i, not i+1); backtrack by adding element, recursing, then removing. Exponential time |
 
 
 > **Note**: This table will be updated as more problems are added to the repository.
