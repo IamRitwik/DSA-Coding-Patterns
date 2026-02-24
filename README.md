@@ -89,6 +89,7 @@ This repository contains well-documented implementations of common data structur
 | 76 | [Find All Subsets](14.Backtracking/2.Subset/find_all_subsets.py) | Backtracking | Medium | **All subsets** → For each element, either include or exclude; recurse both ways and backtrack. 2^n subsets. O(n × 2^n) time |
 | 77 | [Combination Sum](14.Backtracking/3.Combination/combination_sum.py) | Backtracking | Medium | **Combinations summing to target** → Elements can be reused (pass i, not i+1); backtrack by adding element, recursing, then removing. Exponential time |
 | 78 | [Phone Keypad Combinations](14.Backtracking/3.Combination/phone_keypad.py) | Backtracking | Medium | **Digit-to-letter combinations** → For each digit, try all mapped letters; build strings with DFS/backtracking. O(n · 4^n) time, O(n) auxiliary space |
+| 79 | [N-Queens (Count Solutions)](14.Backtracking/1.Permutation/N-Queens.py) | Backtracking | Hard | **Place queens row by row** → Track used columns, diagonals, and anti-diagonals in sets; for each row, try safe columns, recurse, and backtrack. Exponential time |
 
 
 > **Note**: This table will be updated as more problems are added to the repository.
