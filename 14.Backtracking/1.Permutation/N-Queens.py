@@ -3,6 +3,12 @@ from typing import Set
 res = 0
 
 
+# Time Complexity: O(N!) in the worst case, because backtracking explores
+# a branching factor up to N columns on each row, but valid placements
+# quickly shrink the search space; the number of valid boards grows
+# roughly on the order of N!.
+# Space Complexity: O(N) for recursion stack and the column / diagonal
+# sets, which at most store one entry per row (N queens total).
 def n_queens(n: int) -> int:
     global res
     res = 0  # reset result for each call
