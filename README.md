@@ -90,6 +90,8 @@ This repository contains well-documented implementations of common data structur
 | 77 | [Combination Sum](14.Backtracking/3.Combination/combination_sum.py) | Backtracking | Medium | **Combinations summing to target** → Elements can be reused (pass i, not i+1); backtrack by adding element, recursing, then removing. Exponential time |
 | 78 | [Phone Keypad Combinations](14.Backtracking/3.Combination/phone_keypad.py) | Backtracking | Medium | **Digit-to-letter combinations** → For each digit, try all mapped letters; build strings with DFS/backtracking. O(n · 4^n) time, O(n) auxiliary space |
 | 79 | [N-Queens (Count Solutions)](14.Backtracking/1.Permutation/N-Queens.py) | Backtracking | Hard | **Place queens row by row** → Track used columns, diagonals, and anti-diagonals in sets; for each row, try safe columns, recurse, and backtrack. Exponential time |
+| 80 | [Climbing Stairs](15.Dynamic-Programming/1D_DP/1.climbing_stairs.py) | Dynamic Programming (1D DP) | Easy | **Fibonacci-style DP** → Use \(f(n)=f(n-1)+f(n-2)\) with base \(f(1)=1,f(2)=2\); compute top-down with memo or bottom-up |
+| 81 | [Minimum Coin Combination](15.Dynamic-Programming/1D_DP/2.minimum_coin_combination.py) | Dynamic Programming (1D DP) | Medium | **Coin change (min coins)** → Let `dp[t]=min coins for sum t`; init `dp[0]=0`, others = inf; relax with `dp[t]=min(dp[t], 1+dp[t-coin])` |
 
 
 > **Note**: This table will be updated as more problems are added to the repository.
