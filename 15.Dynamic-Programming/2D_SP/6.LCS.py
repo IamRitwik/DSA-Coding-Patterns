@@ -1,3 +1,5 @@
+# Time Complexity: O(m * n)
+# Space Complexity: O(m * n)
 def longest_common_subsequence(s1: str, s2: str) -> int:
 
     # base case: populate last row with 0

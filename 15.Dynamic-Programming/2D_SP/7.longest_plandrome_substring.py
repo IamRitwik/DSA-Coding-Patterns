@@ -1,3 +1,5 @@
+# Time Complexity: O(n^2)
+# Space Complexity: O(n^2)
 def longest_palindrome_in_a_string(s: str) -> str:
     # Write your code here
     n = len(s)
