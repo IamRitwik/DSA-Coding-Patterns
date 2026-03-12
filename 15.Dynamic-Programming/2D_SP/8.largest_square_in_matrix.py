@@ -1,5 +1,7 @@
 from typing import List
 
+# Time Complexity: O(m * n)
+# Space Complexity: O(m * n)
 def largest_square_in_a_matrix(matrix: List[List[int]]) -> int:
     # Write your code here
     if not matrix:
